@@ -21,7 +21,7 @@ const geminiConfig = {
   maxOutputTokens: 4096,
 };
 const geminiModel = genAI.getGenerativeModel({
-  model: "gemini-pro",
+  model: "gemini-2.5-flash",
   geminiConfig,
 });
 
